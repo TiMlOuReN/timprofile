@@ -1,0 +1,116 @@
+body{
+	font-family: 'Times', sans-serif;
+	color: #E5C3A6;
+	background: #213555;
+text-align: center;
+text-decoration: none;
+}
+h1{
+	color: #213555;
+}
+p{
+	color: #FFF2D8;
+	text-align: center;
+}
+h2{
+	color: #213555;
+}
+i{
+	text-decoration: none;
+}
+h3{
+	color: #FFF2D8
+}
+ol{
+	text-align: center;
+	color: #FFF2D8;
+}
+.container{ 
+	width: 1500px;
+ }
+
+
+@media (min-width: 1201px) {
+  .container {
+    width: 1500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 500px;
+  }
+}
+
+ .card-purple {
+ 	border-radius: 5px;
+ 	text-align: center;
+	background-color: #176B87;
+ 	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 10px;
+	width: 300px;
+	height: 45px;
+	padding: 1px;
+ }
+ .card-one {
+ 	background: #4F709C;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 100px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 350px;
+	padding: 25px;
+ }
+ .card-two {
+ 	background: #4F709C;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 200px;
+	padding: 25px;
+
+ }
+ .card-three{
+ 	background: #4F709C;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 150px;
+	padding: 25px;
+ }
+ .card-four{
+ 	background: #4F709C;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 90px;
+	padding: 25px;
+ }
